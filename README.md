@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mobile Price Predictor AI
 
 Dataset-driven Flask application using the supplied 836-row Mobile Price Prediction dataset. The project keeps the lime + cherry-red visual theme and centred top navigation.
@@ -30,3 +31,7 @@ Open http://127.0.0.1:5000. The app also trains a model on first launch if no mo
 
 ## Deployment
 Use Python 3.11 or 3.12 for broad ML package compatibility. Render build command: `pip install -r requirements.txt`; start command: `gunicorn app:app` (add `gunicorn>=22` to requirements if deploying this way). For local development use `python app.py`. Persist `data/user_features.sqlite3` with a persistent disk if wishlist and alerts must survive redeploys.
+=======
+# MobilePricePredictor
+AI Based Mobile Price Prediction System using Machine Learning
+>>>>>>> 989647d0720c990fc8ce3d8c43b4a96f2c8f14ab
